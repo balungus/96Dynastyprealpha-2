@@ -1,0 +1,522 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 9,
+        "fields": {
+            "year": 2000,
+            "summary": "<br>After a close victory against Governor Clinton in 1992, George Bush initially enjoyed a relatively stable second term. Since then, however, both foreign and domestic problems have grown, with tensions rising in Eastern Europe and terrorism on American soil striking fear in the hearts of many. This, paired with general malaise, has produced a Republican ticket nobody but one man wanted.</br><br>Across the aisle, the Democratic Party experienced an almighty scramble in the primaries. Emerging from this battle is Governor Mario Cuomo of New York. Long considered a strong potential candidate, it would seem the party is ready to give liberalism one final attempt after four consecutive losses on the presidential level. Cuomo's first challenge is to unite his party, and given the polling, that should be the only challenge, even despite rumblings of another Ross Perot candidacy this fall.",
+            "image_url": "https://i.imgur.com/QeYSK5p.png",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://i.imgur.com/t7sqneT.png",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">The Florida Recount / 2000 Election</h4><a href=\"http://www.amazon.com/exec/obidos/ASIN/B000RH0DVM/amhius20-20\" target=”_blank”>Jeffrey Toobin - Too Close to Call: The Thirty-Six-Day Battle to Decide the 2000 Election</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B00EMLDHFI/amhius20-20\" target=”_blank”>Andrew E. Busch & James W. Ceaser - The Perfect Tie: The True Story of the 2000 Presidential Election</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/032110028X/amhius20-20\" target=”_blank”>Larry Sabato - Overtime! The Election 2000 Thriller</a><h4>Books by the Candidates</h4><a href=\"http://www.amazon.com/exec/obidos/ASIN/B000C4SV2I/amhius20-20\" target=”_blank”>George W. Bush - A Charge to Keep: My Journey to the White House</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/0452269350/amhius20-20\" target=”_blank”>Al Gore - Earth in the Balance</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B003YFIYWY/amhius20-20\" target=”_blank”>The Ralph Nader Reader</a><h4>Links</h4><a href=\"http://www.digitalhistory.uh.edu/disp_textbook.cfm?smtID=2&psid=3377\" target=”_blank”>Digital History - The Disputed Election of 2000</a></br><a href=\"http://www.pbs.org/wnet/supremecourt/future/landmark_bush.html\" target=”_blank”><em>Bush v. Gore</em></a></br><a href=\"http://www.vanityfair.com/news/2004/10/florida-election-2000\" target=”_blank”>The Path to Florida</a></br><a href=\"http://www.historyplace.com/speeches/gore-concedes.htm\" target=”_blank”>Al Gore Concedes the 2000 Election</a>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "1996 Dynasty"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 78,
+        "fields": {
+            "first_name": "Mario",
+            "last_name": "Cuomo",
+            "election": 9,
+            "party": "Democratic",
+            "state": "New York",
+            "priority": 1,
+            "description": "Mario Cuomo has served as governor of New York since 1983, and has consistently held strong liberal values. During his time in Albany, he has declined the opportunity to run for president twice before, first in 1988 and again in 1992, despite draft movements for his candidacy. Now, it would seem that Cuomo is finally prepared to shed his \"Hamlet on the Hudson\" moniker, and given his opponent, he's practically got a free ticket to the White House.</br><br>Touting his record as governor and popularity among the party base, Cuomo dispatched most of his primary opponents with ease. There is some concern that his liberalism will be a detriment in Southern states that went for Clinton four years ago, and further concern regarding stances such as his staunch opposition to capital punishment, which may prove unpopular in the high-crime environment. However, with the unpopularity of  Quayle and the potential for Ross Perot to enter the race, nearly every state seems to be in play for the Cuomo campaign this fall. So long as no serious scandals or gaffes occur, Cuomo seems set to become the first Italian-American president.",
+            "color_hex": "#0047ab",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/uP7kmSS.png",
+            "electoral_victory_message": "<h3>CUOMO TAKES THE WHITE HOUSE, FIRST DEMOCRAT PRESIDENT IN 16 YEARS</h3>",
+            "electoral_loss_message": "<h3>CUOMO LOSES, REPUBLICANS REMAIN DOMINANT IN WASHINGTON</h3>",
+            "no_electoral_majority_message": "<h3>PEROT DEADLOCKS, HOUSE TO VOTE ON PRESIDENT</h3>",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 77,
+        "fields": {
+            "first_name": "Dan",
+            "last_name": "Quayle",
+            "election": 9,
+            "party": "Republican",
+            "state": "Indiana",
+            "priority": 1,
+            "description": "More than running against a Kennedy, more than another Watergate-esque scandal occurring, this is what every Republican has feared for the past eight years: a Dan Quayle candidacy. Considered to be the punchline of the Bush administration, it comes as a shock to many that Quayle managed to secure the nomination, though it was likely in no small part due to the equal or greater unpalatable nature of his opponents in the Republican primaries.</br><br>Quayle has a long record of putting his foot in his mouth with nonsensical statements at worst and embarrassing gaffes at best, leading many to believe there is an intelligence deficit between himself and his opponent. Trailing heavily in the polls and facing another potential Ross Perot third-party challenge, which some say almost sunk Bush's campaign in '92, the situation looks dire for the vice president. Despite this, Quayle remains confident in himself if nothing else, confident that he can make four victories in a row become five by winning a term of his own. Stranger victories have happened, but with how the polling is looking, most Republicans aren't holding their breath.",
+            "color_hex": "#660000",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/U6gmips.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 79,
+        "fields": {
+            "first_name": "Ross",
+            "last_name": "Perot",
+            "election": 9,
+            "party": "Reform",
+            "state": "Texas",
+            "priority": 1,
+            "description": "After a stunning performance as an independent candidate in 1992, capturing just under 16% of the popular vote, billionaire businessman Ross Perot returns this year for another run, this time under his newly created Reform Party. The party, while a general hodgepodge of varying opinions and beliefs, is united in the opposition to the two-party system of Democrats and Republicans, with Perot as the captain at the helm, hoping to recapture the magic of '92.</br><br>Perot's candidacy is not without criticism this time around, as many Republicans believe the 1992 election would not have been nearly as close were it not for Perot, and some saying had he done better, then Bush would have lost. This belief is also held across the aisle, with Democrats giddy at the thought of another strong third-party performance as the icing on the cake to Dan Quayle's nomination. Still though, it's very likely that his opponents will simply pretend Perot is not there, to deny him any breath, any chance at doing what he could have done four years back, and break the two-party system. Will Perot bring his Reform Party into the new millennium stronger than ever?",
+            "color_hex": "#7f00ff",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/EhuT5Zt.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 82,
+        "fields": {
+            "first_name": "Bob",
+            "last_name": "Graham",
+            "election": 9,
+            "party": "Democratic",
+            "state": "Florida",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/neAdpcA.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "Former governor and incumbent Senator from Florida Bob Graham is similar to yourself in that his name has come up for presidential runs twice before, albeit as a running mate rather than a presidential candidate. A moderate with a good record of education reform in particular, he would serve as a good ideological balance to yourself, and being from Florida, Graham also brings a geographical balance to the ticket, and the state's 25 electoral votes won't hurt.</br><br>Graham certainly won't excite any demographic in particular outside Florida, but as a moderate, friendly, and scandal-free politician with a history of strong work ethic, you probably couldn't ask for a better running mate this fall.",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 80,
+        "fields": {
+            "first_name": "Ralph",
+            "last_name": "Nader/Others",
+            "election": 9,
+            "party": "Various",
+            "state": "Various",
+            "priority": 1,
+            "description": "Various third parties are also running, most notably the famed Ralph Nader with the Green Party, but with Perot in the race it's unlikely they'll garner much support.",
+            "color_hex": "#138808",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/vwpKrD6.png",
+            "electoral_victory_message": "<h3>Fuck you.</h3><br>Click clacking bigshot and spamming your spacebar, I hope your thumb hurts from all the times you must have pressed the spacebar for this. Eat shit.",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 83,
+        "fields": {
+            "first_name": "Ann",
+            "last_name": "Richards",
+            "election": 9,
+            "party": "Democratic",
+            "state": "Texas",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/YK2lX9h.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "Recently out of office, former Texan Governor Ann Richards narrowly lost her re-election bid two years ago to George W. Bush, the son of President Bush. Despite this, Richards has maintained popularity with the party base, and her selection would excite female voters and would consolidate your polling in Southern states. That said, policy wise there's not much difference between her and yourself, but your geographic balance is much more palatable.</br><br>Hopefully Republicans won't take advantage of her loss in '94 much, but it's unlikely Bush Jr. will amount to much in the future. Richards is a strong campaigner, and you can be certain she'd play an active role in your administration.",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 81,
+        "fields": {
+            "first_name": "Marcy",
+            "last_name": "Kaptur",
+            "election": 9,
+            "party": "Democratic",
+            "state": "Ohio",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/O63hwWy.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "Representative Marcy Kaptur has served in the U.S. House from Ohio's 9th congressional district since 1983, and holds similar positions to your own, most particularly on trade. Ohio has long been an important state for any campaign to win (especially given that Bush's re-election was secured by a narrow victory in the state), though it's expected to be less close this time around. Regardless, her selection would appeal to several demographics.</br><br>With Kaptur's stance on trade combined with your own views on the matter, a ticket with her would be a good way to fend off any Perot candidacy that may spring up, but beware the optics among those who are in favor of free trade. ",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 84,
+        "fields": {
+            "first_name": "John",
+            "last_name": "Breaux",
+            "election": 9,
+            "party": "Democratic",
+            "state": "Louisiana",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/DjBD8wo.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "John Breaux is a Senator from Louisiana and would certainly be an option open to you should you desire to diversify your ticket. A moderate to conservative Southern Democrat, some of your more liberal supporters would feel confused at best and betrayed at worst, but the silver lining is what Breaux can offer your campaign in the Deep South. States like Mississippi, Alabama, and of course Breaux's native Louisiana would be far easier to swing.</br><br>The downside of course is that given your differences in opinion, this may result in a poor working relationship in the White House. You also risk depressing liberal support, but it's not like they're going to vote for anyone but you, right?",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 85,
+        "fields": {
+            "first_name": "Larry",
+            "last_name": "Pressler",
+            "election": 9,
+            "party": "Republican",
+            "state": "South Dakota",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/NFDv56R.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "Senator Larry Pressler has served in the Senate from South Dakota for nearly two decades, and his record of competence and integrity would be a great asset for your campaign. Not to mention, his selection would help keep his home state in line as well as other Great Plains states this fall, which are looking concerningly close in the polling. Pressler also holds respect from military veterans thanks to his efforts for them during his Senate tenure.</br><br>Just keep in mind Pressler isn't the first choice of some conservatives. Still, while not all of his views are in lockstep with the national party, you and Larry should make a good team, and he's more than willing to put in some work.",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 86,
+        "fields": {
+            "first_name": "Tommy",
+            "last_name": "Thompson",
+            "election": 9,
+            "party": "Republican",
+            "state": "Wisconsin",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/2ooPPJE.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "Tommy Thompson is perhaps the most enthusiastic person you could find for the position of running mate on what many already perceive as a doomed campaign. In fact, he's practically been shouting from the rooftops that he'd love to run with you. This enthusiasm could very well translate nicely into the general election. Along with this, Thompson could help slim up the margins in Wisconsin, where he's been serving as governor for nine years now.</br><br>There are downsides to Thompson's selection, however. He's seen as a potential poor debater, prone to rants and bombastic statements. With the perceptions you already hold in the public eye, you'd need to be very careful here.",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 87,
+        "fields": {
+            "first_name": "Connie",
+            "last_name": "Mack",
+            "election": 9,
+            "party": "Republican",
+            "state": "Florida",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/GtNM0Nf.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "Cornelius McGillicuddy III, or simply Connie Mack for the sake of brevity, is a Senator from Florida who is one of the running mates recommended by President Bush. A political moderate and prominent name in Floridian politics, securing the Sunshine State would be that much easier for your campaign. Mack is particularly notable for his astounding re-election margins against Mike Wiley two years ago, winning every county in the state of Florida.</br><br>It should be noted that despite his potency in Florida, Mack would likely be a purely regional candidate, as no wing of the party is especially excited about his selection (aside from baseball fanatics), but at least nobody is opposed.",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 88,
+        "fields": {
+            "first_name": "Pat",
+            "last_name": "Choate",
+            "election": 9,
+            "party": "Reform",
+            "state": "Oklahoma",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/SX0XsmU.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "Rather than selecting James Stockdale once again, your previous running mate in 1992, you have instead selected economist Pat Choate to be your running mate. Choate doesn't have the perceived slow-wittedness that Stockdale was believed to have, but neither does he have the grandeur befitting a decorated war hero that Stockdale possessed. For what it's worth, Choate is at least more competent in expressing his positions, as a prolific author.</br><br>Should you be able to qualify for the debates once again, Choate would be able to perform more competently in the vice presidential debates (for those who watch those), and his economic stances could help draw in conservatives.",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 89,
+        "fields": {
+            "first_name": "Richard",
+            "last_name": "Lamm",
+            "election": 9,
+            "party": "Reform",
+            "state": "Colorado",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/BgmmkQE.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "Primaries have always been tense for supporters of differing candidates, and your new Reform Party is no exception. Richard Lamm, former Democratic three-term governor of Colorado, was one such candidate who sought the nomination before you entered the race and swept the Reform Party primaries. Selecting Lamm may grant your ticket some legitimacy given his experience while retaining your outsider credentials, and prevent any defectors.</br><br>Lamm was hesitant to be your running mate, and with his joining he would expect more of a partnership than you and Stockdale had back in '92. Ideally, his background could also help in peeling off Democratic voters from Cuomo.",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 90,
+        "fields": {
+            "first_name": "Winona",
+            "last_name": "LaDuke/Others",
+            "election": 9,
+            "party": "Various",
+            "state": "Various",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "Not all of the various third parties have running mates this year, but the most notable running mate of these is Winona LaDuke, a Green Party activist running with Ralph Nader.",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 142758,
+        "fields": {
+            "candidate": 78,
+            "running_mate": 82
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 126291,
+        "fields": {
+            "candidate": 78,
+            "running_mate": 83
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 128851,
+        "fields": {
+            "candidate": 78,
+            "running_mate": 84
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 152481,
+        "fields": {
+            "candidate": 77,
+            "running_mate": 85
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 115719,
+        "fields": {
+            "candidate": 78,
+            "running_mate": 81
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 80001,
+        "fields": {
+            "candidate": 77,
+            "running_mate": 86
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 161673,
+        "fields": {
+            "candidate": 77,
+            "running_mate": 87
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 117943,
+        "fields": {
+            "candidate": 79,
+            "running_mate": 88
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 178321,
+        "fields": {
+            "candidate": 79,
+            "running_mate": 89
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 171621,
+        "fields": {
+            "candidate": 80,
+            "running_mate": 90
+        }
+    }
+]
+
+campaignTrail_temp.credits = "Mike McGovern"
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 26,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 9,
+        "candidates": [
+            78,
+            77,
+            79,
+            80
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 9,
+        "candidates": [
+            78,
+            77,
+            79,
+            80
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 9,
+        "year": 2000,
+        "is_premium": 0,
+        "display_year": "1996 Dynasty"
+    }
+]
+
+jet_data = {
+    "headerColor": "#240029",
+    "windowColor": "#240029",
+    "containerColor": "#000000",
+    "innerWindowColor": "#103942",
+    "bannerImageUrl": "https://i.imgur.com/UwZqAVV.png",
+    "backgroundImageUrl": "https://i.imgur.com/UDuDYe0.jpg",
+    "endingTextColor": "#ffffff",
+    "customQuote": "\"If we can change the world, we can change America.\" -George H.W. Bush",
+    "gameTitle": "Dynasty: 1996"
+}
+
+//#startcode
+
+
+corrr = '\n              <h2>Dynasty: 1996</h2><font id="wittyquote" size="4" color="white"><em>"If we can change the world, we can change America." -George H.W. Bush</em></font>\n            ';
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#240029";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#240029";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#000000";
+
+document.getElementById("header").src = "https://i.imgur.com/UwZqAVV.png";
+
+document.body.background = "https://i.imgur.com/UDuDYe0.jpg";
+
+document.head.innerHTML += "<style>#results_container {color:#ffffff;} .inner_window_w_desc {background-color:#103942!important;}</style>";
+
+//#endcode
